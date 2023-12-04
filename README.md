@@ -1,2 +1,2 @@
-# svelte-sanitize
-💎 Safe html expansion for Svelte with universal-sanitize
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
