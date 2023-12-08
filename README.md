@@ -6,10 +6,4 @@
 
 💎 Safe html expansion for Svelte with universal-sanitize
 
-## Installation
-
-```sh
-npm i @jill64/svelte-sanitize
-```
-
 <!----- END GHOST DOCS HEADER ----->

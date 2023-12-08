@@ -24,7 +24,11 @@
     "type": "git",
     "url": "https://github.com/jill64/svelte-sanitize.git"
   },
-  "keywords": [],
+  "keywords": [
+    "html",
+    "sanitize",
+    "svelte"
+  ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
     "dev": "vite dev",
