@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/universal-sanitizer':
-    specifier: 0.0.1
-    version: 0.0.1
+    specifier: 1.0.0
+    version: 1.0.0
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -594,8 +594,8 @@ packages:
       - svelte
     dev: true
 
-  /@jill64/universal-sanitizer@0.0.1:
-    resolution: {integrity: sha512-01wu3CmromDbobuPkXK24FoXCdHlUNTRuoUatTfNSqsXB9KKMLC1LzGnF9RX9pkhboTWIQj1HqZe0XoUW1sS9w==}
+  /@jill64/universal-sanitizer@1.0.0:
+    resolution: {integrity: sha512-+9EGfkGxMv7cXUhYsP7XDdWSqUC63+ta8BiOFUj6MST84lTUSGscFOUSJU+kg6rCUeGp4zsqzRMIEEVsIFXGzA==}
     dependencies:
       '@types/dompurify': 3.0.5
       '@types/sanitize-html': 2.9.5
