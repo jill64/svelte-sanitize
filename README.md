@@ -7,3 +7,27 @@
 💎 Safe html expansion for Svelte with universal-sanitize
 
 <!----- END GHOST DOCS HEADER ----->
+
+## Installation
+
+```sh
+npm i @jill64/svelte-sanitize
+```
+
+## Usage
+
+```svelte
+<script>
+  import { Render } from '@jill64/svelte-sanitize'
+</script>
+
+<Render
+  html={/* dirty html */}
+  options={/* {
+    sanitizeHtml?: sanitize-html options
+    dompurify?: DOMPurify options
+  } */}
+/>
+```
+
+Same as all parameters [`@jill64/universal-sanitize`](https://github.com/jill64/universal-sanitizer#readme)
