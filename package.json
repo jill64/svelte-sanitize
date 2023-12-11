@@ -5,7 +5,12 @@
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/svelte-sanitize/issues",
   "homepage": "https://github.com/jill64/svelte-sanitize#readme",
   "files": [
@@ -20,12 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/svelte-sanitize.git"
+    "url": "https://github.com/jill64/svelte-sanitize.git",
+    "image": "https://opengraph.githubassets.com/4a75ff6ceb7dde38fbb68096c060451848b6d38ea5a489f2eda55a6027ac893f/jill64/svelte-sanitize"
   },
   "keywords": [
     "html",
     "sanitize",
-    "svelte"
+    "svelte",
+    "xss"
   ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
