@@ -1,7 +1,9 @@
 <script lang="ts">
   import { Render } from '$lib'
+  import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
   import { onMount } from 'svelte'
   import { code } from './code'
+  import { markup } from './markup'
 
   let browser = false
 
@@ -10,16 +12,25 @@
   })
 </script>
 
-<Render html={code(browser)} />
+<main>
+  <div>
+    <Render html={markup(browser)} />
+  </div>
+  <div style:font-size="large">
+    <HighlightSvelte {code} />
+  </div>
+</main>
 
 <style>
-  :global(body) {
-    font-family: sans-serif;
+  main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 2rem;
   }
-  @media (prefers-color-scheme: dark) {
-    :global(body) {
-      background-color: #161616;
-      color: whitesmoke;
+  @media (max-width: 800px) {
+    main {
+      grid-template-columns: auto;
     }
   }
 </style>

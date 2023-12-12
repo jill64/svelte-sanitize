@@ -1,16 +1,17 @@
-export const code = (browser: boolean) => /* html */ `
-<header>
-  <h1>svelte-sanitize</h1>
-  <p>💎 Safe html expansion for Svelte with universal-sanitizer</p>
-  <a href="https://github.com/jill64/svelte-sanitize">
-    GitHub
-  </a>
-</header>
-<main>
-  <span>${browser ? 'This is Render by Browser' : ''}</span>
-</main>
-
+export const code = /* html */ `
 <script>
-  alert('Find XSS vulnerability !!')
+  import { Render } from '@jill64/svelte-sanitize'
+  
+  let browser = false
+
+  onMount(() => {
+    browser = true
+  })
 </script>
-`
+
+<Render html="<h2>🌐 This is Rendered by Server</h2>" />
+
+{#if browser}
+  <Render html="<h2>💻 This is Rendered by Browser</h2>" />
+{/if}
+`.trim()
