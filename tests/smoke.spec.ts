@@ -4,8 +4,10 @@ test('smoke', async ({ page }) => {
   await page.goto('/')
 
   await expect(
-    page.getByRole('heading', { name: 'svelte-sanitize' })
+    page.getByRole('heading', { name: '@jill64/svelte-sanitize' })
   ).toBeVisible()
 
-  await expect(page.getByText('This is Render by Browser')).toBeVisible()
+  await expect(
+    page.getByRole('heading', { name: 'This is Rendered by Browser' })
+  ).toBeVisible()
 })
