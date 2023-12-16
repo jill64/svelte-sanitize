@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.5
     version: 1.0.5(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.2
-    version: 1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    specifier: 1.0.3
+    version: 1.0.3(@sveltejs/kit@2.0.0)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.0
     version: 2.2.0(@playwright/test@1.40.1)
@@ -375,8 +375,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-Buw/+xho7N2EZX5VSQBnnfmBXRinDgd7szZ/ttMvvDclJKV3WZCdUI7dx0owQ6lDbySQGcyJ4NuL229Dtshbyg==}
+  /@jill64/npm-demo-layout@1.0.3(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-0LKpT0ejCQbw74SKnwDGTcL/Mz+ol68XmmQKVvTTRPakl59htzjw9D95IZ3XbX0FpUCHH14evd57AeiDRDh62g==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -389,7 +389,7 @@ packages:
       '@jill64/universal-sanitizer': 1.0.0
       '@sveltejs/kit': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10)
       svelte: 4.2.8
-      svelte-code-copy: 1.0.1(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+      svelte-code-copy: 1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8)
       svelte-highlight: 7.4.2
       svelte-highlight-switcher: 1.1.0(svelte-highlight@7.4.2)(svelte@4.2.8)
     dev: true
@@ -2679,14 +2679,14 @@ packages:
       ts-serde: 1.0.0
     dev: true
 
-  /svelte-code-copy@1.0.1(@sveltejs/kit@2.0.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-xqL5jZZlCqxA6rCVyUF0XnyI4bQiUKdp6TyFTEjvcasR+xPp4wzZGXIQPvWQdRfrmlWUyhuUMShNQrL1epuCOw==}
+  /svelte-code-copy@1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-Kuc/psmNV/otFCDr+D7iuBaMs8NI9VwwAXfp+LCrsgY/1ieAdbyZS15j1VslgAkgEpYPG334rviHb14DPJsGfg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/async-observer': 1.2.0
       svelte: 4.2.8
-      svelte-feather-icons: 4.0.1
+      svelte-feather-icons: 4.1.0
       svelte-hydrated: 1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
     transitivePeerDependencies:
       - '@sveltejs/kit'
@@ -2711,6 +2711,12 @@ packages:
 
   /svelte-feather-icons@4.0.1:
     resolution: {integrity: sha512-DMDrlbblaRUHLcTFtKHE4GWQ/Fk/kneGIZrrI75EmTxCu1hgHe8uq8e80ONrmdjL/i3f1d8fkcx73SWng2X6Gg==}
+    dependencies:
+      svelte: 3.59.2
+    dev: true
+
+  /svelte-feather-icons@4.1.0:
+    resolution: {integrity: sha512-fcTL4VzEN4BoccQJjKiui0b9DWEsmO6zGpI0tQTJbthRtNrYheoU487zyA1BD8rj9kj6jbKGmGVo7zbSdRvMvA==}
     dependencies:
       svelte: 3.59.2
     dev: true
