@@ -23,8 +23,8 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0
   '@jill64/sentry-sveltekit-cloudflare':
-    specifier: 1.6.1
-    version: 1.6.1(@sveltejs/kit@2.0.2)(svelte@4.2.8)
+    specifier: 1.6.2
+    version: 1.6.2(@sveltejs/kit@2.0.2)(svelte@4.2.8)
   '@playwright/test':
     specifier: 1.40.1
     version: 1.40.1
@@ -406,8 +406,8 @@ packages:
     resolution: {integrity: sha512-KuryQDStqkQ/zKR9Q7JXiW927m7SvwirQo6Oohss1Q9cRyYS2JOyhtcBavZnoEhH4pHJkaigfjUXA3em4n6egA==}
     dev: true
 
-  /@jill64/sentry-sveltekit-cloudflare@1.6.1(@sveltejs/kit@2.0.2)(svelte@4.2.8):
-    resolution: {integrity: sha512-4fZKD9g1SWmPC9qO8Yd47vqWsqr+gFIpnvPrS4Iwsiffm9lXFLOhBbkbB2giSCXmehNNkw3e1jBZ6CtgORC6Rg==}
+  /@jill64/sentry-sveltekit-cloudflare@1.6.2(@sveltejs/kit@2.0.2)(svelte@4.2.8):
+    resolution: {integrity: sha512-9Rhhehdw5PX33zSDKSsR/+/3MHHiFP7Rv1ni+lmMo7TidnIY6gcNZxxFp5a/Qf5+85E+PVBfxpL0XuGoiEZHHw==}
     peerDependencies:
       '@sveltejs/kit': '>=1.0.0'
     dependencies:
