@@ -37,3 +37,11 @@ pnpm i -D @jill64/universal-sanitizer
 ```
 
 Same as all parameters [`@jill64/universal-sanitize`](https://github.com/jill64/universal-sanitizer#readme)
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
