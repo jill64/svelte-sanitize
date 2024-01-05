@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/universal-sanitizer':
-    specifier: 1.0.1
-    version: 1.0.1
+    specifier: 1.0.2
+    version: 1.0.2
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -506,6 +506,16 @@ packages:
       '@types/sanitize-html': 2.9.5
       dompurify: 3.0.7
       sanitize-html: 2.11.0
+    dev: true
+
+  /@jill64/universal-sanitizer@1.0.2:
+    resolution: {integrity: sha512-n2tlk5/u+qn4p/nvZ5nXtpR2i5oNCT7STUYxa2cJHeEgBQsAwr46sbcB2m/RaFNYOkxVgae/yTkSP/bvkmsZXQ==}
+    dependencies:
+      '@types/dompurify': 3.0.5
+      '@types/sanitize-html': 2.9.5
+      dompurify: 3.0.8
+      sanitize-html: 2.11.0
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -1243,6 +1253,11 @@ packages:
 
   /dompurify@3.0.7:
     resolution: {integrity: sha512-BViYTZoqP3ak/ULKOc101y+CtHDUvBsVgSxIF1ku0HmK6BRf+C03MC+tArMvOPtVtZp83DDh5puywKDu4sbVjQ==}
+    dev: true
+
+  /dompurify@3.0.8:
+    resolution: {integrity: sha512-b7uwreMYL2eZhrSCRC4ahLTeZcPZxSmYfmcQGXGkXiZSNW1X85v+SDM5KsWcpivIiUBH47Ji7NtyUdpLeF5JZQ==}
+    dev: false
 
   /domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
