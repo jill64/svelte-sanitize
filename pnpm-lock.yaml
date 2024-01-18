@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.41.0
     version: 1.41.0
   '@sveltejs/adapter-cloudflare':
-    specifier: 4.0.1
-    version: 4.0.1(@sveltejs/kit@2.3.5)
+    specifier: 4.0.2
+    version: 4.0.2(@sveltejs/kit@2.3.5)
   '@sveltejs/kit':
     specifier: 2.3.5
     version: 2.3.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.9)(vite@5.0.11)
@@ -986,15 +986,15 @@ packages:
       '@sentry/types': 7.91.0
     dev: true
 
-  /@sveltejs/adapter-cloudflare@4.0.1(@sveltejs/kit@2.3.5):
-    resolution: {integrity: sha512-ka8OKyIZv+h0CGcEm/uz6KtjSJwKBPvHjMwJnbuR13+9nO2Aai1al/cER4wa9c0z9fZJ1AGpRiU+nPpXiau4uQ==}
+  /@sveltejs/adapter-cloudflare@4.0.2(@sveltejs/kit@2.3.5):
+    resolution: {integrity: sha512-zfTDBLxGVy+sFKze1sPpHmOoXAjlhGllZthTgKePj3uB6lKM9Kk1y+oXXym1u1Qe+uVeHF5799M1h/0u1Ll5Rg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
       '@cloudflare/workers-types': 4.20231121.0
       '@sveltejs/kit': 2.3.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.9)(vite@5.0.11)
       esbuild: 0.19.11
-      worktop: 0.8.0-next.16
+      worktop: 0.8.0-next.18
     dev: true
 
   /@sveltejs/kit@2.3.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.9)(vite@5.0.11):
@@ -2284,8 +2284,8 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /regexparam@2.0.2:
-    resolution: {integrity: sha512-A1PeDEYMrkLrfyOwv2jwihXbo9qxdGD3atBYQA9JJgreAx8/7rC6IUkWOw2NQlOxLp2wL0ifQbh1HuidDfYA6w==}
+  /regexparam@3.0.0:
+    resolution: {integrity: sha512-RSYAtP31mvYLkAHrOlh25pCNQ5hWnT106VukGaaFfuJrZFkGRX5GhUAdPqpSDXxOhA2c4akmRuplv1mRqnBn6Q==}
     engines: {node: '>=8'}
     dev: true
 
@@ -2710,12 +2710,12 @@ packages:
       isexe: 2.0.0
     dev: true
 
-  /worktop@0.8.0-next.16:
-    resolution: {integrity: sha512-T/2AQoOONDNvGQUX+gwvFPhpej3BAVy3tA35oS0KfYWMiyvReOLh3WN0Iq67Y0rszuC96KVis9SD1S0H0t4hrw==}
+  /worktop@0.8.0-next.18:
+    resolution: {integrity: sha512-+TvsA6VAVoMC3XDKR5MoC/qlLqDixEfOBysDEKnPIPou/NvoPWCAuXHXMsswwlvmEuvX56lQjvELLyLuzTKvRw==}
     engines: {node: '>=12'}
     dependencies:
       mrmime: 2.0.0
-      regexparam: 2.0.2
+      regexparam: 3.0.0
     dev: true
 
   /wrappy@1.0.2:
