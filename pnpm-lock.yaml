@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/universal-sanitizer':
-    specifier: 1.0.2
-    version: 1.0.2
+    specifier: 1.1.0
+    version: 1.1.0
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -527,6 +527,17 @@ packages:
       '@types/sanitize-html': 2.9.5
       dompurify: 3.0.8
       sanitize-html: 2.11.0
+    dev: true
+
+  /@jill64/universal-sanitizer@1.1.0:
+    resolution: {integrity: sha512-b5dBYYFgf8AClsfmwB5/txpyN3wfmLDZ9Sm1GBZdsvIphuxuQ3skofPSuGc7tGgwz1BeioBz/uXgZqdP8wk8Yw==}
+    dependencies:
+      '@types/dompurify': 3.0.5
+      '@types/sanitize-html': 2.9.5
+      dompurify: 3.0.8
+      postcss: 8.4.33
+      sanitize-html: 2.11.0
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -2051,6 +2062,15 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /postcss@8.4.33:
+    resolution: {integrity: sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -2130,7 +2150,7 @@ packages:
       htmlparser2: 8.0.2
       is-plain-object: 5.0.0
       parse-srcset: 1.0.2
-      postcss: 8.4.32
+      postcss: 8.4.33
 
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
