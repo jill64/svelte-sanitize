@@ -62,7 +62,7 @@
     "svelte-check": "3.6.3",
     "typescript": "5.3.3",
     "vite": "5.0.12",
-    "@sveltejs/vite-plugin-svelte": "3.0.1"
+    "@sveltejs/vite-plugin-svelte": "3.0.2"
   },
   "dependencies": {
     "@jill64/universal-sanitizer": "1.1.0"
