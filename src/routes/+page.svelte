@@ -16,7 +16,7 @@
   <div>
     <Render html={markup(browser)} />
   </div>
-  <div style:font-size="large">
+  <div style:font-size="large" style:overflow-x="auto">
     <HighlightSvelte {code} />
   </div>
 </main>
