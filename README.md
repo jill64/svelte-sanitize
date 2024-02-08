@@ -48,6 +48,6 @@ Same as all parameters [`@jill64/universal-sanitize`](https://github.com/jill64/
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 <!----- END GHOST DOCS FOOTER ----->
