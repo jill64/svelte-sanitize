@@ -54,7 +54,7 @@
     "@jill64/npm-demo-layout": "1.0.120",
     "@jill64/playwright-config": "2.2.4",
     "@jill64/prettier-config": "1.0.0",
-    "@jill64/sentry-sveltekit-cloudflare": "1.7.7",
+    "@jill64/sentry-sveltekit-cloudflare": "1.7.8",
     "@playwright/test": "1.42.1",
     "@sveltejs/adapter-cloudflare": "4.2.0",
     "@sveltejs/kit": "2.5.4",
