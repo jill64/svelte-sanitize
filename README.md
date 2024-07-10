@@ -38,6 +38,7 @@ pnpm i -D @jill64/universal-sanitizer
   options={/* {
     sanitizeHtml?: sanitize-html options
     dompurify?: DOMPurify options
+    hook?: DOMPurify Hooks function
   } */}
 />
 ```
