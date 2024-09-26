@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-sanitize",
   "description": "💎 Safe html expansion for Svelte with universal-sanitize",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-sanitize.git",
-    "image": "https://opengraph.githubassets.com/7fd38eca15d897bb0a393943177b8e823a7732f8daf2aaf0fd27f4311453e4d3/jill64/svelte-sanitize"
+    "image": "https://opengraph.githubassets.com/11f0e6f5ab1ef0fc28fa786c3a258f0e8d77d57f8adb857d537ef1f047bee394/jill64/svelte-sanitize"
   },
   "keywords": [
     "html",
@@ -65,7 +65,7 @@
     "@sveltejs/vite-plugin-svelte": "3.1.2"
   },
   "dependencies": {
-    "@jill64/universal-sanitizer": "1.3.1"
+    "@jill64/universal-sanitizer": "1.3.2"
   },
   "publishConfig": {
     "access": "public"
