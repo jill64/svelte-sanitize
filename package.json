@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-sanitize.git",
-    "image": "https://opengraph.githubassets.com/f80846ef1f723c197445e6fe72b6724186536a11e9190604f3cd56135cc48cb3/jill64/svelte-sanitize"
+    "image": "https://opengraph.githubassets.com/7aa0245225aeebbeda22bd68852a3ec83533803d69c3819b2b91e8d21d6f13ea/jill64/svelte-sanitize"
   },
   "keywords": [
     "html",
