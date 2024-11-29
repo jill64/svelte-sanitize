@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-sanitize.git",
-    "image": "https://opengraph.githubassets.com/40ee43dc5ea7a4196ad9f0dee167373c7425c794ae7aa99a28321d4deda1f5e3/jill64/svelte-sanitize"
+    "image": "https://opengraph.githubassets.com/b6d6f39276c57f878f9ea865805f0b6319a2d60a74b278d78bcf6aefd022953e/jill64/svelte-sanitize"
   },
   "keywords": [
     "html",
@@ -56,7 +56,7 @@
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.16",
     "@playwright/test": "1.49.0",
-    "@sveltejs/adapter-cloudflare": "4.7.4",
+    "@sveltejs/adapter-cloudflare": "4.8.0",
     "@sveltejs/kit": "2.8.3",
     "svelte": "4.2.19",
     "svelte-check": "3.8.5",
