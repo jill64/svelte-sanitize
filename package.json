@@ -65,7 +65,7 @@
     "@sveltejs/vite-plugin-svelte": "3.1.2"
   },
   "dependencies": {
-    "@jill64/universal-sanitizer": "1.3.5"
+    "@jill64/universal-sanitizer": "1.3.6"
   },
   "publishConfig": {
     "access": "public"
