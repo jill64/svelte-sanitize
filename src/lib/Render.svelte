@@ -13,4 +13,5 @@
   let sanitized = $derived(sanitize(html, options))
 </script>
 
+<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 {@html sanitized}
