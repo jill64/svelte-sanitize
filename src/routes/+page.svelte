@@ -1,20 +1,14 @@
 <script lang="ts">
   import { Render } from '$lib'
   import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
-  import { onMount } from 'svelte'
+  import { hydrated } from 'svelte-hydrated'
   import { code } from './code'
   import { markup } from './markup'
-
-  let browser = false
-
-  onMount(() => {
-    browser = true
-  })
 </script>
 
 <main>
   <div>
-    <Render html={markup(browser)} />
+    <Render html={markup($hydrated)} />
   </div>
   <div style:font-size="large" style:overflow-x="auto">
     <HighlightSvelte {code} />
