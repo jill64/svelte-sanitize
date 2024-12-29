@@ -2,9 +2,9 @@ export const code = /* html */ `
 <script>
   import { Render } from '@jill64/svelte-sanitize'
   
-  let browser = false
+  let browser = $state(false)
 
-  onMount(() => {
+  $effect(() => {
     browser = true
   })
 </script>

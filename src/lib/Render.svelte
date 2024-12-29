@@ -1,10 +1,16 @@
-<script lang="ts">
+<script>
   import { sanitize } from '@jill64/universal-sanitizer'
 
-  export let html: string
-  export let options: Parameters<typeof sanitize>[1] | undefined = undefined
+  /**
+   * @typedef {Object} Props
+   * @property {string} html
+   * @property {Parameters<typeof sanitize>[1]} [options]
+   */
 
-  $: sanitized = sanitize(html, options)
+  /** @type {Props} */
+  let { html, options = undefined } = $props()
+
+  let sanitized = $derived(sanitize(html, options))
 </script>
 
 <!-- eslint-disable-next-line svelte/no-at-html-tags -->
