@@ -43,8 +43,8 @@ importers:
         specifier: 5.16.0
         version: 5.16.0
       svelte-hydrated:
-        specifier: 1.0.31
-        version: 1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)
+        specifier: 2.0.0
+        version: 2.0.0(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -1549,6 +1549,12 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
+
+  svelte-hydrated@2.0.0:
+    resolution: {integrity: sha512-/X+wtfsAERtzv8KEqNwe77UcO3qaMjiEh9FG5tps/cU6Q4EVujQqAJpOH8UlN5snSp5BEeKC5lv+RDL1TOJ/bQ==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.0.0
+      svelte: ^5.0.0
 
   svelte-mq-store@3.0.0:
     resolution: {integrity: sha512-1gwR2QdO9VZZfDdCwOV2BOGAWmkK7388dUsC61CUomN8L3hEmh2VDiS9UaoSGhHeLNATJbOPhYi0q2SkjVlP/w==}
@@ -3142,6 +3148,11 @@ snapshots:
       highlight.js: 11.11.1
 
   svelte-hydrated@1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0):
+    dependencies:
+      '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2))
+      svelte: 5.16.0
+
+  svelte-hydrated@2.0.0(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0):
     dependencies:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2))
       svelte: 5.16.0
