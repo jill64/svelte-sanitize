@@ -1,14 +1,14 @@
 <script lang="ts">
   import { Render } from '$lib'
   import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
-  import { hydrated } from 'svelte-hydrated'
+  import { is } from 'svelte-hydrated'
   import { code } from './code'
   import { markup } from './markup'
 </script>
 
 <main>
   <div>
-    <Render html={markup($hydrated)} />
+    <Render html={markup(is.hydrated)} />
   </div>
   <div style:font-size="large" style:overflow-x="auto">
     <HighlightSvelte {code} />
