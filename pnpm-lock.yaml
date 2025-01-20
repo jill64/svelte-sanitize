@@ -25,8 +25,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       '@jill64/sentry-sveltekit-cloudflare':
-        specifier: 2.0.4
-        version: 2.0.4(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)
+        specifier: 2.0.5
+        version: 2.0.5(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)
       '@playwright/test':
         specifier: 1.49.1
         version: 1.49.1
@@ -468,8 +468,8 @@ packages:
   '@jill64/prettier-config@1.0.0':
     resolution: {integrity: sha512-KuryQDStqkQ/zKR9Q7JXiW927m7SvwirQo6Oohss1Q9cRyYS2JOyhtcBavZnoEhH4pHJkaigfjUXA3em4n6egA==}
 
-  '@jill64/sentry-sveltekit-cloudflare@2.0.4':
-    resolution: {integrity: sha512-0xfF19RbgTfpdWjzgWA/al+46Ap4+mDLgrYOTRXl9sg0HSzussgofP9gCQgReSm/43oMjRqqdXFd9cNLT++3nw==}
+  '@jill64/sentry-sveltekit-cloudflare@2.0.5':
+    resolution: {integrity: sha512-1sJze+H0IGLGNB9TdJe8l2iG6bewrCNxG7Lao9on576LMTEQt+LIBbC1WXgQ3TtyypKkaG9QuBcgokv6dlQNPQ==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
 
@@ -1576,8 +1576,8 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  toucan-js@4.0.0:
-    resolution: {integrity: sha512-FkF7uBztiyjs2WxVt54akH3pFWDcu61RwHsdH2oB0KGailstKEB/xmgMHiE6mft4YCnZi88uM2RPWZVZrA5r1w==}
+  toucan-js@4.1.0:
+    resolution: {integrity: sha512-KaD6yfjFuOiFfKccvJ95EICwxus+g2mfPUHyxfPCq7yzsEg5Qi2wpym0cxsZI7oS4t3S7/HwL1v+2TW5/pGAUA==}
 
   ts-api-utils@1.4.3:
     resolution: {integrity: sha512-i3eMG77UTMD0hZhgRS562pv83RC6ukSAC2GMNWc+9dieh/+jDM5u5YG+NHX6VNDRHQcHwmsTHctP9LhbC3WxVw==}
@@ -2007,11 +2007,11 @@ snapshots:
 
   '@jill64/prettier-config@1.0.0': {}
 
-  '@jill64/sentry-sveltekit-cloudflare@2.0.4(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)':
+  '@jill64/sentry-sveltekit-cloudflare@2.0.5(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)':
     dependencies:
       '@sentry/svelte': 8.50.0(svelte@5.16.2)
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2)))(svelte@5.16.2)(vite@6.0.7(@types/node@22.10.2))
-      toucan-js: 4.0.0
+      toucan-js: 4.1.0
     transitivePeerDependencies:
       - svelte
 
@@ -3177,7 +3177,7 @@ snapshots:
 
   totalist@3.0.1: {}
 
-  toucan-js@4.0.0:
+  toucan-js@4.1.0:
     dependencies:
       '@sentry/core': 8.9.2
       '@sentry/types': 8.9.2
