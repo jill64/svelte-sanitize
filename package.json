@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-sanitize.git",
-    "image": "https://opengraph.githubassets.com/853525462c39cf15f2a014f378a061764f6cf3fb4454cd97fcf81335f67f900c/jill64/svelte-sanitize"
+    "image": "https://opengraph.githubassets.com/a6dd28ceef2c2893e59e2b9e03fc93ce72d892bf3417fe41264ed67523a248a5/jill64/svelte-sanitize"
   },
   "keywords": [
     "html",
@@ -38,30 +38,30 @@
   "prettier": "@jill64/prettier-config",
   "scripts": {
     "dev": "vite dev",
-    "build": "npm run package && vite build",
-    "preview": "npm run build && vite preview",
-    "prepack": "npm run build",
-    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
-    "check": "svelte-kit sync && npx svelte-check",
-    "lint": "npm run check && npx eslint .",
-    "format": "npx psvx",
+    "build": "bun run package && vite build",
+    "preview": "bun run build && vite preview",
+    "prepack": "bun run build",
+    "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
+    "check": "svelte-kit sync && bunx svelte-check",
+    "lint": "bun run check && bunx eslint .",
+    "format": "bunx psvx",
     "test": "playwright test"
   },
   "peerDependencies": {
     "svelte": "^5.0.0"
   },
   "devDependencies": {
-    "@jill64/eslint-config-svelte": "2.0.6",
-    "@jill64/npm-demo-layout": "2.0.15",
-    "@jill64/playwright-config": "2.4.2",
+    "@jill64/eslint-config-svelte": "2.2.1",
+    "@jill64/npm-demo-layout": "2.0.16",
+    "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
-    "@playwright/test": "1.50.1",
-    "@sveltejs/adapter-cloudflare": "5.0.2",
-    "@sveltejs/kit": "2.16.1",
-    "svelte": "5.19.7",
-    "typescript": "5.7.3",
-    "vite": "6.0.11",
+    "@playwright/test": "1.51.0",
+    "@sveltejs/adapter-cloudflare": "5.0.3",
+    "@sveltejs/kit": "2.19.0",
+    "svelte": "5.23.0",
+    "typescript": "5.8.2",
+    "vite": "6.2.1",
     "@sveltejs/vite-plugin-svelte": "5.0.3",
     "svelte-hydrated": "2.0.0"
   },
