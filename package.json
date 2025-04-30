@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-sanitize.git",
-    "image": "https://opengraph.githubassets.com/bc4874c201418a864e9d108c424f92d0bc184ac9d7454777ae3abde3a6f2a229/jill64/svelte-sanitize"
+    "image": "https://opengraph.githubassets.com/c3925a71f41526329f30a7987b8af09f8365ce56dda5a066cab72e76c6fd65aa/jill64/svelte-sanitize"
   },
   "keywords": [
     "html",
@@ -61,7 +61,7 @@
     "@sveltejs/kit": "2.20.6",
     "svelte": "5.23.1",
     "typescript": "5.8.3",
-    "vite": "6.3.3",
+    "vite": "6.3.4",
     "@sveltejs/vite-plugin-svelte": "5.0.3",
     "svelte-hydrated": "2.0.0"
   },
